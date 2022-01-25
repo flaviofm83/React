@@ -1,12 +1,14 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react'; //biblioteca react
+import ReactDOM from 'react-dom'; //responsável por gerenciar todos os elementos do react
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+
+//estamos mandando o componente App para ser renderizado lá na div root do inndex.html
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App /> 
   </React.StrictMode>,
   document.getElementById('root')
 );
